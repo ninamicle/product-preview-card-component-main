@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Product preview card component</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="img">
+        <picture class="img-perfume">
+          <source
+            media="(max-width:600px)"
+            srcset="./images/image-product-mobile.jpg"
+          />
+          <source
+            media="(max-width:600px)"
+            srcset="./images/image-product-desktop.jpg"
+          />
+          <img
+            class="img-perfume"
+            srcset="./images/image-product-desktop.jpg"
+            alt="Gabrielle Essence Eau De Parfum"
+          />
+        </picture>
+      </div>
+      <div class="info">
+        <h3 class="category-title">Perfume</h3>
+        <h1 class="title">Gabrielle Essence Eau De Parfum</h1>
+        <p class="description">
+          A floral, solar and voluptuous interpretation composed by Olivier
+          Polge, Perfumer-Creator for the House of CHANEL.
+        </p>
+        <div class="price">
+          <p class="sale-price">$149.99</p>
+          <p class="full-price">$169.99</p>
+        </div>
+        <button class="btn">
+          <img class="btn-icon" src="./images/icon-cart.svg" alt="Icon cart" />
+          <span class="btn-text">Add to Cart</span>
+        </button>
+      </div>
+    </div>
+
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Nina Micle</a>.
+      </div>
+    </footer>
+  </body>
+</html>
