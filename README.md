@@ -13,7 +13,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 
 ### Links
-- Live Site URL: [My Solution]([(https://delightful-melba-251b29.netlify.app/)])
+- Live Site URL: https://delightful-melba-251b29.netlify.app/
 
 ### Built with
 
